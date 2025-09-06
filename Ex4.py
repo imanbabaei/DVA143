@@ -27,8 +27,8 @@ user_input = input('Please enter a name of country: ')
 standard_name = user_input.capitalize()
 
 # Approach 1: search in list
-if standard_name in ['Denmark', 'Sweden', 'Iceland', 'Norway', 'Finland']:
-    print(f'{standard_name} is in Nordic Region!')
+# if standard_name in ['Denmark', 'Sweden', 'Iceland', 'Norway', 'Finland']:
+#     print(f'{standard_name} is in Nordic Region!')
 
 # Approach 2: if statement
 # with "or"/"and" between each condition we can combine multiple if statements
